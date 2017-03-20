@@ -1,0 +1,38 @@
+@mixin bkg-color($color) {
+  background-color:$color;
+  }
+
+
+.app {
+  @include bkg-color($black);
+    color: $blue;
+}
+
+.footer {
+    text-align: center;
+    @include bkg-color($red);
+}
+
+.main {
+    position: relative;
+    top: 30px;
+    max-width: 980px;
+    text-align: center;
+    margin: auto;
+    @include bkg-color($lightgrey);
+}
+
+.nav-headings {
+    @include bkg-color($white);
+    padding: 0;
+    /*padding-right: 15px
+     padding-left: 15px; */
+}
+
+.nav-item {
+    padding: 0;
+}
+
+.events {
+    padding: 15px;
+}

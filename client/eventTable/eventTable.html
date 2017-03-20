@@ -1,0 +1,12 @@
+<table class="table table-bordered event-table" ng-controller="eventTableController">
+    <tr class="heading">
+        <th>Event</th>
+        <th>Memebers</th>
+        <th>Status</th>
+    </tr>
+    <tr ng-repeat="event in Events" class="data">
+        <td>{{event.eventNumber}}</td>
+        <td>{{event.eventMembers}}</td>
+        <td>{{event.eventStatus}}</td>
+    </tr>
+</table>

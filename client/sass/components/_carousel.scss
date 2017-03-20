@@ -1,0 +1,24 @@
+.carsl{
+  height: 150px;
+  background-color: $green;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      /*width: 70%;*/
+      margin: auto;
+  }
+.images{
+  width: 140px;
+  height: 140px;
+}
+.carousel-caption{
+  color: $red;
+
+  position: absolute;
+  bottom: -35px;
+}
+.carousel-indicators{
+  bottom: -35px;
+
+  position: absolute;
+}
